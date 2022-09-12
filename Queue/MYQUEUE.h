@@ -16,6 +16,8 @@ template <typename Q> class Queue{
 public:
     Node <Q>*front = NULL;
     Node  <Q>*rear = NULL;
+    
+    // Enqueue Elements 
 
     void enqueue(Q val){
         Node <Q>*newNode = new Node<Q>(val);
